@@ -1,12 +1,13 @@
 html body {
   background-color: white;
 }
-.nav {
-  text-align: center;
-}
-.navbar-nav .nav-item{
-  float: inherit;
-  display: inline-block;
+.box {
+  position: absolute;
+  top: 34%;
+  border: red solid 5pt;
+  width: 100%;
+  background-color: gold;
+  overflow: hidden;
 }
 
 .top {
