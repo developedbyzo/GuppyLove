@@ -1,0 +1,36 @@
+html body {
+  background-color: white;
+}
+.box {
+  position: absolute;
+  top: 34%;
+  border: red solid 5pt;
+  width: 100%;
+  background-color: gold;
+  overflow: hidden;
+}
+
+.top {
+  position: absolute;
+  top: 6%;
+  left: 33%;
+}
+.welcome {
+  color: red;
+  text-align: center;
+}
+.msg {
+  color: red;
+  text-align: center;
+  text-decoration-line: underline;
+}
+.block {
+  width: 900px;
+  height: 100px;
+  margin: auto;
+}
+.about {
+  font-size: 20px;
+  color: antiquewhite;
+  text-align: center;
+}
