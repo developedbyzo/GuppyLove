@@ -1,5 +1,6 @@
 html body {
-  background-color: white;
+  
+
 }
 /* .box {
   position: absolute;
@@ -35,22 +36,43 @@ html body {
   text-align: center;
 } */
 .navbar{
-  background:#F97300;
+  background:rgba(64, 40, 102, 0.85);
  }
  .nav-link , .navbar-brand{
   color: #f4f4f4;
-  cursor: pointer;
+  font-family: 'Open Sans Condensed', sans-serif;
  }
  .nav-link{
   margin-right: 1em !important;
  }
  .nav-link:hover{
   background: #f4f4f4;
-  color: #f97300;
+  color: rgb(64, 40, 102);
  }
  .navbar-collapse{
   justify-content: flex-end;
  }
  .navbar-toggler{
    background:#fff !important;
+ }
+
+ .header{
+  height: 250px;
+  width: 100%;
+  background-image: url(img/Guppies-Fish-Images-Collection.jpg);
+  background-size: cover;
+  background-position: 90% 10%;
+ }
+ .overlay{
+   position: absolute;
+   min-height: 100%;
+   min-width: 100%;
+   background:rgba(244, 244, 244, 0.50);
+ }
+ .container{
+   position: absolute;
+   top: 20%;
+   left: 5%;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: 300;
  }
