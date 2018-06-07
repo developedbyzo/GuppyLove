@@ -1,6 +1,5 @@
 html body {
-  
-
+  background-color: rgb(80, 58, 143);
 }
 /* .box {
   position: absolute;
@@ -36,7 +35,7 @@ html body {
   text-align: center;
 } */
 .navbar{
-  background:rgba(64, 40, 102, 0.85);
+  background:rgb(64, 40, 102);
  }
  .nav-link , .navbar-brand{
   color: #f4f4f4;
@@ -57,8 +56,10 @@ html body {
  }
 
  .header{
+  position: fixed;
   height: 250px;
   width: 100%;
+  top: 7%;
   background-image: url(img/Guppies-Fish-Images-Collection.jpg);
   background-size: cover;
   background-position: 90% 10%;
@@ -69,10 +70,26 @@ html body {
    min-width: 100%;
    background:rgba(244, 244, 244, 0.50);
  }
- .container{
-   position: absolute;
-   top: 20%;
-   left: 5%;
+ .greeting{
+   position: fixed;
+   margin-top: 4%;
+   left: 4%;
    font-family: 'Open Sans Condensed', sans-serif;
    font-weight: 300;
+ }
+
+ .about{
+  position: fixed;
+  height: 300px;
+  width: 100%;
+  top: 38%;
+  background-color: #fff;
+ }
+ .section{
+  /* position: absolute;
+   margin-top: 8%;
+   left: 4%; */
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: 300;
+   text-align: center;
  }
