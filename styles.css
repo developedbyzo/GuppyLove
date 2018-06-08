@@ -1,16 +1,8 @@
 html body {
   background-color: rgb(80, 58, 143);
 }
-/* .box {
-  position: absolute;
-  top: 34%;
-  border: red solid 5pt;
-  width: 100%;
-  background-color: gold;
-  overflow: hidden;
-}
 
-.top {
+/*.top {
   position: absolute;
   top: 6%;
   left: 33%;
@@ -55,23 +47,24 @@ html body {
    background:#fff !important;
  }
 
- .header{
+ /* header{
   position: fixed;
-  height: 250px;
-  width: 100%;
-  top: 7%;
-  background-image: url(img/Guppies-Fish-Images-Collection.jpg);
-  background-size: cover;
-  background-position: 90% 10%;
+  background: red;
+ } */
+ #myvideo {
+  position: fixed;
+  min-height: 100%;
+  min-width: 100%;
  }
- .overlay{
+ 
+ /* .overlay{
    position: absolute;
    min-height: 100%;
    min-width: 100%;
    background:rgba(244, 244, 244, 0.50);
- }
+ }*/
  .greeting{
-   position: fixed;
+   text-align: center;
    margin-top: 4%;
    left: 4%;
    font-family: 'Open Sans Condensed', sans-serif;
@@ -83,13 +76,13 @@ html body {
   height: 300px;
   width: 100%;
   top: 38%;
-  background-color: #fff;
+  /* background-color: #fff; */
  }
- .section{
-  /* position: absolute;
+ /* .section{
+   position: absolute;
    margin-top: 8%;
-   left: 4%; */
+   left: 4%;
    font-family: 'Open Sans Condensed', sans-serif;
    font-weight: 300;
    text-align: center;
- }
+ } */
