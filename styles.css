@@ -1,13 +1,12 @@
 html body {
-  background-color: rgb(80, 58, 143);
+  background-color: rgb(255, 255, 255);
 }
-
-/*.top {
+.top {
   position: absolute;
-  top: 6%;
+  top: 0%;
   left: 33%;
 }
-.welcome {
+/*.welcome {
   color: red;
   text-align: center;
 }
@@ -20,11 +19,14 @@ html body {
   width: 900px;
   height: 100px;
   margin: auto;
-}
-.about {
-  font-size: 20px;
-  color: antiquewhite;
+}*/
+.intro {
   text-align: center;
+   margin-top: 15%;
+   left: 4%;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: 300;
+   font-size: 15pt;
 } */
 .navbar{
   background:rgb(64, 40, 102);
@@ -47,10 +49,13 @@ html body {
    background:#fff !important;
  }
 
- /* header{
-  position: fixed;
-  background: red;
- } */
+ .header{
+  height: 75px;
+  width: 100%;
+  background-image: url(img/guppy_loveHeaderB.jpg);
+  background-size: cover;
+  background-position: 40% 60%;
+ }
  #myvideo {
   position: fixed;
   min-height: 100%;
@@ -77,6 +82,13 @@ html body {
   width: 100%;
   top: 38%;
   /* background-color: #fff; */
+ }
+ .footer-colored{
+   background: rgb(118, 42, 142);
+   color: #fff;
+   font-family: 'Open Sans Condensed', sans-serif;
+   text-align: center;
+   height: 30px;
  }
  /* .section{
    position: absolute;
