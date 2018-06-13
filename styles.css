@@ -6,20 +6,6 @@ html body {
   top: 0%;
   left: 33%;
 }
-/*.welcome {
-  color: red;
-  text-align: center;
-}
-.msg {
-  color: red;
-  text-align: center;
-  text-decoration-line: underline;
-}
-.block {
-  width: 900px;
-  height: 100px;
-  margin: auto;
-}*/
 .intro {
   text-align: center;
    margin-top: 15%;
@@ -27,7 +13,15 @@ html body {
    font-family: 'Open Sans Condensed', sans-serif;
    font-weight: 300;
    font-size: 15pt;
-} */
+}
+.type-info {
+  text-align: center;
+   margin-top: 15%;
+   left: 4%;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-weight: 300;
+   font-size: 15pt;
+}
 .navbar{
   background:rgb(64, 40, 102);
  }
@@ -48,7 +42,6 @@ html body {
  .navbar-toggler{
    background:#fff !important;
  }
-
  .header{
   height: 75px;
   width: 100%;
@@ -61,13 +54,23 @@ html body {
   min-height: 100%;
   min-width: 100%;
  }
- 
- /* .overlay{
+ .overlay-male{
    position: absolute;
-   min-height: 100%;
-   min-width: 100%;
-   background:rgba(244, 244, 244, 0.50);
- }*/
+   top: 24%;
+   height: 3%;
+   width: 9.25%;
+   background:rgba(206, 50, 50);
+   color: #fff;
+ }
+ .overlay-female{
+  position: absolute;
+  top: 24%;
+  left: 89.7%;
+  height: 3%;
+  width: 9.25%;
+  background:rgba(206, 50, 50);
+  color: #fff;
+}
  .greeting{
    text-align: center;
    margin-top: 4%;
@@ -75,26 +78,24 @@ html body {
    font-family: 'Open Sans Condensed', sans-serif;
    font-weight: 300;
  }
-
  .about{
   position: fixed;
   height: 300px;
   width: 100%;
   top: 38%;
-  /* background-color: #fff; */
  }
- .footer-colored{
-   background: rgb(118, 42, 142);
-   color: #fff;
-   font-family: 'Open Sans Condensed', sans-serif;
-   text-align: center;
-   height: 30px;
- }
- /* .section{
+ .video{
    position: absolute;
-   margin-top: 8%;
-   left: 4%;
-   font-family: 'Open Sans Condensed', sans-serif;
-   font-weight: 300;
-   text-align: center;
- } */
+   top: 100%;
+ }
+ .shop-header{
+  min-width: 100%;
+  margin-top: 75px;
+ }
+.line{
+  position: fixed;
+  top: 58%;
+  height: 10px;
+  width: 100%;
+  background:black;
+}
