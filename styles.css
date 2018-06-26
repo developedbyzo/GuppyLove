@@ -9,10 +9,10 @@ html body{
 }
 .intro {
   text-align: center;
-   margin-top: 15%;
-   left: 4%;
-   font-weight: 300;
-   font-size: 15pt;
+  margin-top: 25%;
+  left: 4%;
+  font-weight: 300;
+  font-size: 22pt;
 }
 .type-info {
   text-align: center;
@@ -100,4 +100,12 @@ html body{
   height: 10px;
   width: 100%;
   background:black;
+}
+.under-construction{
+  text-align: center;
+  margin-top: 400px;
+  left: 4%;
+}
+.GL-PH{
+  
 }
